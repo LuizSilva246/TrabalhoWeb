@@ -50,6 +50,7 @@ p{
 
 .card{
     width: 25%;
+    
 }
 
 .card img{
@@ -81,9 +82,9 @@ header nav a{
 }
 
 header nav a:hover{ 
-    background: black;
-    color: antiquewhite;
-   
+    transition: 0.5s ease;
+    background-color: rgb(121, 121, 121);
+    padding: 10px;
 }
 .menu a li {
     color: white;
