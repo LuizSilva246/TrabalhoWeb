@@ -1,0 +1,92 @@
+*{
+    text-decoration: none;
+}
+#sandler{
+    border-style: groove;
+    border-radius: 10px;
+    border-color: black;
+    margin: 500px;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+p{
+    
+}
+body{
+    background-color: whitesmoke;
+
+   
+   
+}
+h1{
+    color: rgb(94, 94, 94);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 100px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(94, 94, 94);
+    font-size: 20px;
+    text-align: center;
+}
+.texto{
+    
+    font-size: small;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    color: rgb(0, 0, 0);
+}
+
+#filmes{
+    width: 500px;
+    weight: 300px;
+    display: inline-block;
+}
+
+.card{
+    width: 25%;
+}
+
+.card img{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+header nav{
+    list-style: none;
+    border: 1px solid rgb(75, 73, 73);
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    
+}
+header nav a{
+    float: left;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+header nav a:hover{ 
+    background: black;
+    color: antiquewhite;
+   
+}
+.menu a li {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
